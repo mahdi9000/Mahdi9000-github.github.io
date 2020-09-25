@@ -1,0 +1,131 @@
+* {
+  margin:0;
+  padding:100;
+  
+}
+.header {
+  background-color: #a5ac4c;
+  padding: 20px;
+  text-align: center;
+}
+html, body {
+  
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  background-image: url(https://hacktiv8.com/assets/img/ogdefault.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+    
+html {
+  display: table;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+h3{
+background: rgb(235, 72, 72);
+color: blanchedalmond;
+ min-height: 50px;
+    margin:auto;
+}
+p{
+  background: rgb(208, 215, 250);
+color: rgb(15, 12, 8);
+width: 50px;
+margin: auto;
+}
+    
+
+input{
+  
+  transform: scale(2);
+  margin: 10px;
+  font-size: 20px;
+}
+#word{
+  font-size: 12px;
+}
+input[value]{
+  background-color: blue;
+}
+
+/*Radio, button and option*/
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: rgb(236, 129, 152);
+  border-radius: 50%;
+}
+
+
+.container:hover input ~ .checkmark {
+  background-color: rgb(255, 255, 255);
+}
+
+
+.container input:checked ~ .checkmark {
+  background-color: cyan;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: red;
+}
+label { 
+  display: block;  
+  background-color: rgb(206, 250, 162); 
+}
+button {
+  background-color: cyan;
+  border: none;
+  color: black;
+  padding: 15px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+

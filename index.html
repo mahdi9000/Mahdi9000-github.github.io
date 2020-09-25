@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Hacktiv</title>
+    <link rel="stylesheet" type="text/css" media ="screen" href="style.css"/>
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Indonesian Online Game Quiz</h1>
+        </div>
+        <p>Music</p><button onclick="play()" type="button">play/stop</button>
+    <audio id="audioID" loop> <source src="TheSameBlueSky.mp3"  type="audio/mp3"></audio>
+        <!-- 1st Question -->
+        <h3>Game Online FPS apa yang pertama rilis di indonesia?</h3>
+        <label class="container">Point Blank
+         <input type="radio"  name="question0" value="A">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">CS:Online
+        <input type="radio" name="question0" value="B">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">Crossfire
+        <input type="radio" name="question0" value="C">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">Freefire
+        <input type="radio" name="question0" value="D">
+        <span class="checkmark"></span>
+        </label>
+         <!-- 2nd Question -->
+         <h3>Game MOBA apa yang cukup populer di Indonesia?</h3>
+        <label class="container">LOL
+         <input type="radio"  name="question1" value="A">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">Vainglory
+        <input type="radio" name="question1" value="B">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">DOTA
+        <input type="radio" name="question1" value="C">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">AOV
+        <input type="radio" name="question1" value="D">
+        <span class="checkmark"></span>
+        </label>
+         
+        <!-- 3rd Question -->
+        <h3>Diantara game dibawah ini yang mana yang cukup terkenal di indonesia ?</h3>
+        <label class="container">Grand Chase
+         <input type="radio"  name="question2" value="A">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">Lost Saga
+        <input type="radio" name="question2" value="B">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">Elsword
+        <input type="radio" name="question2" value="C">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">Atlanta
+        <input type="radio" name="question2" value="D">
+        <span class="checkmark"></span>
+        </label>
+         
+         <!-- 4th Question -->
+         <h3>Game online lawas apa yang masih eksis sampai sekarang ?</h3>
+        <label class="container">Apex Legend
+         <input type="radio"  name="question3" value="A">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">CS: GO
+        <input type="radio" name="question3" value="B">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">Valorant
+        <input type="radio" name="question3" value="C">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">Point Blank
+        <input type="radio" name="question3" value="D">
+        <span class="checkmark"></span>
+        </label>
+         
+         <!-- 5th Question -->
+         <h3>Game apa yang cukup terkenal akhir akhir ini dan bisa dimainkan secara gratis ?</h3>
+        <label class="container">Valorant
+         <input type="radio"  name="question4" value="A">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">Honkai Impact
+        <input type="radio" name="question4" value="B">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">Fall Guys
+        <input type="radio" name="question4" value="C">
+        <span class="checkmark"></span>
+        </label>
+        <label class="container">Among Us
+        <input type="radio" name="question4" value="D">
+        <span class="checkmark"></span>
+        </label>
+         
+      <button onclick="returnScore()">Score</button>
+      
+      
+      <script src="script.js"></script>
+</body>
+</html>
